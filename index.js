@@ -3,7 +3,7 @@ const httpServer = require('http').createServer(app);
 const io = require('socket.io')(httpServer, {
   cors: {
     origin: [
-      'http://localhost',
+      'http://localhost:4200',
       'https://afk-tracker-lcnl4.ondigitalocean.app',
     ],
   },
